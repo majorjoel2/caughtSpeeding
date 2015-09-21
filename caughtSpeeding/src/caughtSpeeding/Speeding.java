@@ -21,8 +21,7 @@ public class Speeding {
 			if (speed >= 81) {
 				return 2;
 			}
-		}
-		if (isBirthday == true) {
+		} else {
 			if (speed <= 65) {
 				return 0;
 			}
